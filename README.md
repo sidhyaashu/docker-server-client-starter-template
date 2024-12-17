@@ -140,16 +140,14 @@ services:
 
 # Folder Structure
 ```plaintext
-/project-root
+project-root
     ├── docker-compose.yml
-    ├── my-next-app
+    ├── client
     │   ├── Dockerfile
-    │   ├── dependencies.txt
     │   ├── package.json
     │   └── (other Next.js app files)
     ├── server
     │   ├── Dockerfile
-    │   ├── dependencies.txt
     │   ├── package.json
     │   └── (other Express server files)
 ```
